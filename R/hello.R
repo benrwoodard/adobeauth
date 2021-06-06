@@ -16,7 +16,10 @@
 hello <- function() {
   print("Hello, world!")
 }
-
+###this is multiplying anumber by 2
+times2 <- function(x) {
+  prod(2,x)
+}
 randomnumber <- function() {
   set <- 1:200
   sample(set, 1)
