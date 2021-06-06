@@ -15,5 +15,9 @@
 
 hello <- function() {
   print("Hello, world!")
+}
 
+randomnumber <- function() {
+  set <- 1:200
+  sample(set, 1)
 }
